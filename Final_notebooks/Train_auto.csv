@@ -1,0 +1,49 @@
+Sentence,Status
+g,0
+" the space of possible programs is extremely large, and composing a program that performs robustly on the infinite space of possible inputs is difficult—in part because it is impractical to obtain enough training examples to easily disambiguate amongst all possible programs",1
+"
+thus far, to evaluate the efficacy of neural models on programming tasks, the only metric that has been used is generalization of expected behavior to inputs of greater complexity (vinyals   (2015), kaiser & sutskever (2015), reed & de freitas (2016), graves   (2016), zaremba   (2016))",1
+"
+one common strategy to improve generalization is to use curriculum learning, where the model is trained on inputs of gradually increasing complexity",0
+"
+thus far, to evaluate the efficacy of neural models on programming tasks, the only metric that has been used is generalization of expected behavior to inputs of greater complexity (vinyals   (2015), kaiser & sutskever (2015), reed & de freitas (2016), graves   (2016), zaremba   (2016))",0
+ recursion enables provable guarantees on neural programs’ behavior without needing to exhaustively enumerate all possible inputs to the programs,0
+ this paper is the first (to our knowledge) to investigate the important problem of provable generalization properties of neural programs,1
+training neural networks to synthesize robust programs from a small number of examples is a challenging task,0
+training neural networks to synthesize robust programs from a small number of examples is a challenging task,1
+" the space of possible programs is extremely large, and composing a program that performs robustly on the infinite space of possible inputs is difficult—in part because it is impractical to obtain enough training examples to easily disambiguate amongst all possible programs",0
+ this makes it difficult to reason about what the model will do when given complex inputs,1
+" for example, for the addition task, the model is trained on short inputs and then tested on its ability to sum inputs with much longer numbers of digits",0
+ we find that recursion makes it easier for the network to learn the right program and generalize to unknown situations,1
+" the single-digit multiplication task in zaremba   (2016), the bubble sort task in reed & de freitas (2016), and the graph tasks in graves   (2016))",1
+" empirically, existing models suffer from a common limitation—generalization becomes poor beyond a threshold level of complexity",1
+" although the model is exposed to more and more data, it might learn spurious and overly complex representations of the program, as suggested in zaremba   (2016)",1
+" recursion is an important concept in programming languages and a critical tool to
+reduce the complexity of programs",1
+"
+one common strategy to improve generalization is to use curriculum learning, where the model is trained on inputs of gradually increasing complexity",1
+ this makes it difficult to reason about what the model will do when given complex inputs,0
+" in this version of curriculum learning, even though the inputs are gradually becoming more complex, the semantics of the program is succinct and does not change",1
+ recursion enables provable guarantees on neural programs’ behavior without needing to exhaustively enumerate all possible inputs to the programs,1
+" for example, for the addition task, the model is trained on short inputs and then tested on its ability to sum inputs with much longer numbers of digits",1
+"
+in this paper, we propose to resolve these issues by explicitly incorporating recursion into neural architectures",1
+" however, models that make use of this strategy eventually fail after a certain level of complexity (e",1
+" that is to say, the network does not learn the true program semantics",0
+" empirically, existing models suffer from a common limitation—generalization becomes poor beyond a threshold level of complexity",0
+" nevertheless, we would like the model to quickly learn to represent the right semantics of the underlying program from a small number of training examples, not an exhaustive number of them",0
+" although the model is exposed to more and more data, it might learn spurious and overly complex representations of the program, as suggested in zaremba   (2016)",0
+" in this version of curriculum learning, even though the inputs are gradually becoming more complex, the semantics of the program is succinct and does not change",0
+ errors arise due to undesirable and uninterpretable dependencies and associations the architecture learns to store in some high-dimensional hidden state,0
+g,1
+ we find that recursion makes it easier for the network to learn the right program and generalize to unknown situations,0
+" that is to say, the network does not learn the true program semantics",1
+" recursion is an important concept in programming languages and a critical tool to
+reduce the complexity of programs",0
+" nevertheless, we would like the model to quickly learn to represent the right semantics of the underlying program from a small number of training examples, not an exhaustive number of them",1
+ this paper is the first (to our knowledge) to investigate the important problem of provable generalization properties of neural programs,0
+ errors arise due to undesirable and uninterpretable dependencies and associations the architecture learns to store in some high-dimensional hidden state,1
+" the single-digit multiplication task in zaremba   (2016), the bubble sort task in reed & de freitas (2016), and the graph tasks in graves   (2016))",0
+"
+in this paper, we propose to resolve these issues by explicitly incorporating recursion into neural architectures",0
+" however, models that make use of this strategy eventually fail after a certain level of complexity (e",0
